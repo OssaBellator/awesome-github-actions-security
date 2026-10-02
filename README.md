@@ -29,6 +29,7 @@ All of these scanners use static analysis to detect misconfiguration and vulnera
 * [Octoscan](https://github.com/synacktiv/octoscan) ([List of rules here](https://github.com/synacktiv/octoscan?tab=readme-ov-file#rules))
 * [Poutine](https://github.com/boostsecurityio/poutine) ([List of rules here](https://boostsecurityio.github.io/poutine/))
 * [Zizmor](https://github.com/woodruffw/zizmor) ([List of rules here](https://woodruffw.github.io/zizmor/audits/))
+* [AI Agent Repository Hardening Scanner](https://github.com/OssaBellator/ai-agent-hardening) ([scanner rules and usage](https://github.com/OssaBellator/ai-agent-hardening#free-static-scanner))
 
 I'm currently using [all four of these scanners](https://github.com/johnbillion/plugin-infrastructure/blob/trunk/.github/workflows/reusable-workflow-lint.yml) on several of my repos. The scanners are complementary, they are all actively maintained, and together they provide good coverage of many aspects of workflow file security best practices as well as detecting misconfiguration and vulnerabilities.
 
